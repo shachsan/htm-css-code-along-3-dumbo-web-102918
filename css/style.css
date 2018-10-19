@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css?family=Pacifico|Shadows+Into+Light');
+
+p{
+  font-size: 1em;
+  line-height: 1.5em;
+}
+
+figcaption {
+  /*font-weight: normal;
+  font-size: 0;
+  line-height: 1.5em;
+  font-family: Georgia, "New Times Roman", serif;<*/
+  font:normal 0.75em/1.5em Georgia, "New Times Roman", serif;
+  text-align: right;
+  /*font-family: 'Pacifico', cursive;*/
+  font-family: 'Shadows Into Light', cursive;
+
+}
+
+.top-headers {
+  text-align: center;
+  margin-bottom:0;
+  margin-top:0;
+  background-color: #0A0;
+}
+
+#top-nav{
+  background-color:#0A0;
+  margin-top: 5px;
+
+}
+
+nav a{
+  background-color: #EEFF00;
+  /*margin-left: 10px;
+  margin-right: 20px;*/
+  padding-right: 10px;
+  padding-left: 10px;
+}
+
+#details a:link, #details a:visited{
+  color: green;
+  text-decoration: none;
+}
+
+#details a:hover{
+  color:green;
+  text-decoration: underline;
+}
+
+#details a:active{
+  color: red;
+}
